@@ -1,1 +1,23 @@
+#!/bin/bash
 
+function logo {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/logo)
+}
+
+function aboba {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/Starknet/main/update%20v0.11.0%20main)
+}
+
+function abobab {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/Starknet/main/update%20v0.11.0%20second)
+}
+
+function txt {
+bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
+}
+
+sleep 1 && logo && sleep 3 
+aboba
+abobab
+echo -e "You can check node update by the command \e[7mpathfinder -V\e[0m"
+sleep 1 && txt && sleep 2 
