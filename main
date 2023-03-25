@@ -20,4 +20,4 @@ sleep 1 && logo && sleep 3
 aboba
 abobab
 echo -e "You can check node update by the command \e[7mpathfinder -V\e[0m"
-sleep 1 && txt && sleep 2 
+sleep 4 && txt && sleep 2 
